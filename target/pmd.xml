@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2019-09-10T19:44:41.873">
+<file name="G:\Pr\SURA\p.hygieia\r.hygieia\collectors\scm\gitlab\src\main\java\com\capitalone\dashboard\collector\GitlabGitCollectorTask.java">
+<violation beginline="212" endline="224" begincolumn="41" endcolumn="41" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="com.capitalone.dashboard.collector" class="GitlabGitCollectorTask" method="getPasswordAuthentication" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/design.html#AvoidDeeplyNestedIfStmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+<violation beginline="214" endline="214" begincolumn="52" endcolumn="55" rule="UnusedLocalVariable" ruleset="Unused Code" package="com.capitalone.dashboard.collector" class="GitlabGitCollectorTask" method="getPasswordAuthentication" variable="host" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'host'.
+</violation>
+<violation beginline="215" endline="215" begincolumn="52" endcolumn="55" rule="UnusedLocalVariable" ruleset="Unused Code" package="com.capitalone.dashboard.collector" class="GitlabGitCollectorTask" method="getPasswordAuthentication" variable="port" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'port'.
+</violation>
+</file>
+</pmd>
